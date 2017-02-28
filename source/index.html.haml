@@ -1,0 +1,19 @@
+.navigation
+  %ul
+    %li
+      %a.Home{:href => "#Home"} Home
+    %li
+      %a{:href => "#About me"} About me
+    %li
+      %a{:href => "#contact"} Contact
+    %li
+      %a{:href => "#Portfolio"} Portfolio
+
+.row
+  .large-12.background.columns
+
+
+.projects
+  - data.projects.each do |project|
+    %h4= project[:name]
+    %p= project[:description]

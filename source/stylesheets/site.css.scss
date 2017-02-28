@@ -1,0 +1,53 @@
+body {
+  background-color: #252525;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+a {
+  color: #ff5a00;
+
+  &:focus,
+  &:hover {
+    color: #ff5a00;
+  }
+}
+
+.background {
+  background-image: url('/images/index4.jpg');
+  width: 1024px;
+    height: 800px;
+  background-size:cover;
+}
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        opacity: 0.5;
+    }
+
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        background-color: #333;
+        text-align: center;
+        padding: 30px 36px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
