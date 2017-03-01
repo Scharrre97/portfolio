@@ -1,5 +1,12 @@
-- name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
+- name: ATM
+  description: My first ruby project when we created a ATM machine
+  link: https://github.com/Scharrre97/ATM
+
+
+- name: BMI Calculator
+  description: A simple calculator I built in Javascript who calculate your BMI value
+  link: https://github.com/Scharrre97/BMI
 
 - name: FizzBuzz
-  description: My first Test driven ruby project  
+  description: I built a simple FizzBuzz game in Javascript
+  link: https://github.com/Scharrre97/fizz_buzz_js

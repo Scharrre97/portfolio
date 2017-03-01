@@ -1,0 +1,12 @@
+.row
+  %br
+  .large-12.Portfolio.columns
+    .large-12.Portfolio2.columns
+      - data.projects.each do |project|
+        %br
+        %h4= project[:name]
+        %p= project[:description]
+        %a{href: project[:link]}= project[:link]
+
+
+.projects
